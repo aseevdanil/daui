@@ -47,6 +47,8 @@
 		032F47D61DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */; };
 		032F47F51DF8560100FF5D41 /* DAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F477F1DF846F000FF5D41 /* DAUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		038A47961E12863E009E7FFA /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A47951E12863E009E7FFA /* DAKit.framework */; };
+		038A47A51E12A04E009E7FFA /* DAMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 038A47A31E12A04E009E7FFA /* DAMapViewController.h */; };
+		038A47A61E12A04E009E7FFA /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A47A41E12A04E009E7FFA /* DAMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +95,8 @@
 		032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBarAppearance.m"; sourceTree = "<group>"; };
 		032F47E41DF84ECF00FF5D41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		038A47951E12863E009E7FFA /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = Carthage/Build/iOS/DAKit.framework; sourceTree = "<group>"; };
+		038A47A31E12A04E009E7FFA /* DAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapViewController.h; sourceTree = "<group>"; };
+		038A47A41E12A04E009E7FFA /* DAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 				032F47A51DF8479A00FF5D41 /* DASlidesViewController.m */,
 				032F47A61DF8479A00FF5D41 /* DATableViewController.h */,
 				032F47A71DF8479A00FF5D41 /* DATableViewController.m */,
+				038A47A31E12A04E009E7FFA /* DAMapViewController.h */,
+				038A47A41E12A04E009E7FFA /* DAMapViewController.m */,
 			);
 			path = DAViewController;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				032F47C31DF8479A00FF5D41 /* DATextView.h in Headers */,
 				032F47C11DF8479A00FF5D41 /* DASlidesView.h in Headers */,
 				032F47D41DF8479A00FF5D41 /* UIDynamicDimensionsItem.h in Headers */,
+				038A47A51E12A04E009E7FFA /* DAMapViewController.h in Headers */,
 				032F47D31DF8479A00FF5D41 /* UIClosedViewController.h in Headers */,
 				032F47B11DF8479A00FF5D41 /* DARefreshController.h in Headers */,
 				032F47CD1DF8479A00FF5D41 /* DATableViewController.h in Headers */,
@@ -321,6 +328,7 @@
 				032F47CC1DF8479A00FF5D41 /* DASlidesViewController.m in Sources */,
 				032F47D01DF8479A00FF5D41 /* DAViewController+Helpers.m in Sources */,
 				032F47B61DF8479A00FF5D41 /* DARefreshView.m in Sources */,
+				038A47A61E12A04E009E7FFA /* DAMapViewController.m in Sources */,
 				032F47BA1DF8479A00FF5D41 /* DAButton.m in Sources */,
 				032F47CA1DF8479A00FF5D41 /* DAScrollViewController.m in Sources */,
 				032F47BC1DF8479A00FF5D41 /* DAComplexView.m in Sources */,
@@ -358,8 +366,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -376,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -409,8 +419,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -421,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;

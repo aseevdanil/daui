@@ -27,4 +27,5 @@
 #import "DAViewController/DAScrollViewController.h"
 #import "DAViewController/DATableViewController.h"
 #import "DAViewController/DACollectionViewController.h"
+#import "DAViewController/DAMapViewController.h"
 #import "DAViewController/DANavigationController.h"

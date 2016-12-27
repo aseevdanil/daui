@@ -28,4 +28,5 @@
 #import "daui/DAScrollViewController.h"
 #import "daui/DATableViewController.h"
 #import "daui/DACollectionViewController.h"
+#import "daui/DAMapViewController.h"
 #import "daui/DANavigationController.h"
