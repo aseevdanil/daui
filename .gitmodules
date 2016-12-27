@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/dakit"]
+	path = Carthage/Checkouts/dakit
+	url = https://github.com/aseevdanil/dakit.git
