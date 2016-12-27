@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032F47B11DF8479A00FF5D41 /* DARefreshController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47881DF8479A00FF5D41 /* DARefreshController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47B21DF8479A00FF5D41 /* DARefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47891DF8479A00FF5D41 /* DARefreshController.m */; };
+		032F47B31DF8479A00FF5D41 /* DARefreshItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F478A1DF8479A00FF5D41 /* DARefreshItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47B41DF8479A00FF5D41 /* DARefreshItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F478B1DF8479A00FF5D41 /* DARefreshItem.m */; };
+		032F47B51DF8479A00FF5D41 /* DARefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F478C1DF8479A00FF5D41 /* DARefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47B61DF8479A00FF5D41 /* DARefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F478D1DF8479A00FF5D41 /* DARefreshView.m */; };
+		032F47B71DF8479A00FF5D41 /* DABadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F478F1DF8479A00FF5D41 /* DABadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47B81DF8479A00FF5D41 /* DABadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47901DF8479A00FF5D41 /* DABadgeView.m */; };
+		032F47B91DF8479A00FF5D41 /* DAButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47911DF8479A00FF5D41 /* DAButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47BA1DF8479A00FF5D41 /* DAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47921DF8479A00FF5D41 /* DAButton.m */; };
+		032F47BB1DF8479A00FF5D41 /* DAComplexView.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47931DF8479A00FF5D41 /* DAComplexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47BC1DF8479A00FF5D41 /* DAComplexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47941DF8479A00FF5D41 /* DAComplexView.m */; };
+		032F47BD1DF8479A00FF5D41 /* DAPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47951DF8479A00FF5D41 /* DAPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47BE1DF8479A00FF5D41 /* DAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47961DF8479A00FF5D41 /* DAPageControl.m */; };
+		032F47BF1DF8479A00FF5D41 /* DASegmentsControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47971DF8479A00FF5D41 /* DASegmentsControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47C01DF8479A00FF5D41 /* DASegmentsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47981DF8479A00FF5D41 /* DASegmentsControl.m */; };
+		032F47C11DF8479A00FF5D41 /* DASlidesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47991DF8479A00FF5D41 /* DASlidesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47C21DF8479A00FF5D41 /* DASlidesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F479A1DF8479A00FF5D41 /* DASlidesView.m */; };
+		032F47C31DF8479A00FF5D41 /* DATextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F479B1DF8479A00FF5D41 /* DATextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47C41DF8479A00FF5D41 /* DATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F479C1DF8479A00FF5D41 /* DATextView.m */; };
+		032F47C51DF8479A00FF5D41 /* DACollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F479E1DF8479A00FF5D41 /* DACollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47C61DF8479A00FF5D41 /* DACollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F479F1DF8479A00FF5D41 /* DACollectionViewController.m */; };
+		032F47C71DF8479A00FF5D41 /* DANavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47A01DF8479A00FF5D41 /* DANavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47C81DF8479A00FF5D41 /* DANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47A11DF8479A00FF5D41 /* DANavigationController.m */; };
+		032F47C91DF8479A00FF5D41 /* DAScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47A21DF8479A00FF5D41 /* DAScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47CA1DF8479A00FF5D41 /* DAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47A31DF8479A00FF5D41 /* DAScrollViewController.m */; };
+		032F47CB1DF8479A00FF5D41 /* DASlidesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47A41DF8479A00FF5D41 /* DASlidesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47CC1DF8479A00FF5D41 /* DASlidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47A51DF8479A00FF5D41 /* DASlidesViewController.m */; };
+		032F47CD1DF8479A00FF5D41 /* DATableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47A61DF8479A00FF5D41 /* DATableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47CE1DF8479A00FF5D41 /* DATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47A71DF8479A00FF5D41 /* DATableViewController.m */; };
+		032F47CF1DF8479A00FF5D41 /* DAViewController+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47A81DF8479A00FF5D41 /* DAViewController+Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47D01DF8479A00FF5D41 /* DAViewController+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47A91DF8479A00FF5D41 /* DAViewController+Helpers.m */; };
+		032F47D11DF8479A00FF5D41 /* DAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AA1DF8479A00FF5D41 /* DAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47D21DF8479A00FF5D41 /* DAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47AB1DF8479A00FF5D41 /* DAViewController.m */; };
+		032F47D31DF8479A00FF5D41 /* UIClosedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AD1DF8479A00FF5D41 /* UIClosedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47D41DF8479A00FF5D41 /* UIDynamicDimensionsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AE1DF8479A00FF5D41 /* UIDynamicDimensionsItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47D51DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AF1DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032F47D61DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */; };
+		032F47F51DF8560100FF5D41 /* DAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F477F1DF846F000FF5D41 /* DAUI.h */; };
+		032F47F81DF8561F00FF5D41 /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F47F71DF8561F00FF5D41 /* DAKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032F477C1DF846F000FF5D41 /* DAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		032F477F1DF846F000FF5D41 /* DAUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAUI.h; sourceTree = "<group>"; };
+		032F47801DF846F000FF5D41 /* DAUIInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DAUIInfo.plist; sourceTree = "<group>"; };
+		032F47881DF8479A00FF5D41 /* DARefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DARefreshController.h; sourceTree = "<group>"; };
+		032F47891DF8479A00FF5D41 /* DARefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DARefreshController.m; sourceTree = "<group>"; };
+		032F478A1DF8479A00FF5D41 /* DARefreshItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DARefreshItem.h; sourceTree = "<group>"; };
+		032F478B1DF8479A00FF5D41 /* DARefreshItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DARefreshItem.m; sourceTree = "<group>"; };
+		032F478C1DF8479A00FF5D41 /* DARefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DARefreshView.h; sourceTree = "<group>"; };
+		032F478D1DF8479A00FF5D41 /* DARefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DARefreshView.m; sourceTree = "<group>"; };
+		032F478F1DF8479A00FF5D41 /* DABadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DABadgeView.h; sourceTree = "<group>"; };
+		032F47901DF8479A00FF5D41 /* DABadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DABadgeView.m; sourceTree = "<group>"; };
+		032F47911DF8479A00FF5D41 /* DAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAButton.h; sourceTree = "<group>"; };
+		032F47921DF8479A00FF5D41 /* DAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAButton.m; sourceTree = "<group>"; };
+		032F47931DF8479A00FF5D41 /* DAComplexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAComplexView.h; sourceTree = "<group>"; };
+		032F47941DF8479A00FF5D41 /* DAComplexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAComplexView.m; sourceTree = "<group>"; };
+		032F47951DF8479A00FF5D41 /* DAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPageControl.h; sourceTree = "<group>"; };
+		032F47961DF8479A00FF5D41 /* DAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPageControl.m; sourceTree = "<group>"; };
+		032F47971DF8479A00FF5D41 /* DASegmentsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASegmentsControl.h; sourceTree = "<group>"; };
+		032F47981DF8479A00FF5D41 /* DASegmentsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASegmentsControl.m; sourceTree = "<group>"; };
+		032F47991DF8479A00FF5D41 /* DASlidesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASlidesView.h; sourceTree = "<group>"; };
+		032F479A1DF8479A00FF5D41 /* DASlidesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASlidesView.m; sourceTree = "<group>"; };
+		032F479B1DF8479A00FF5D41 /* DATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATextView.h; sourceTree = "<group>"; };
+		032F479C1DF8479A00FF5D41 /* DATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATextView.m; sourceTree = "<group>"; };
+		032F479E1DF8479A00FF5D41 /* DACollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACollectionViewController.h; sourceTree = "<group>"; };
+		032F479F1DF8479A00FF5D41 /* DACollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACollectionViewController.m; sourceTree = "<group>"; };
+		032F47A01DF8479A00FF5D41 /* DANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DANavigationController.h; sourceTree = "<group>"; };
+		032F47A11DF8479A00FF5D41 /* DANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DANavigationController.m; sourceTree = "<group>"; };
+		032F47A21DF8479A00FF5D41 /* DAScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAScrollViewController.h; sourceTree = "<group>"; };
+		032F47A31DF8479A00FF5D41 /* DAScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAScrollViewController.m; sourceTree = "<group>"; };
+		032F47A41DF8479A00FF5D41 /* DASlidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASlidesViewController.h; sourceTree = "<group>"; };
+		032F47A51DF8479A00FF5D41 /* DASlidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASlidesViewController.m; sourceTree = "<group>"; };
+		032F47A61DF8479A00FF5D41 /* DATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATableViewController.h; sourceTree = "<group>"; };
+		032F47A71DF8479A00FF5D41 /* DATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATableViewController.m; sourceTree = "<group>"; };
+		032F47A81DF8479A00FF5D41 /* DAViewController+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DAViewController+Helpers.h"; sourceTree = "<group>"; };
+		032F47A91DF8479A00FF5D41 /* DAViewController+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DAViewController+Helpers.m"; sourceTree = "<group>"; };
+		032F47AA1DF8479A00FF5D41 /* DAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAViewController.h; sourceTree = "<group>"; };
+		032F47AB1DF8479A00FF5D41 /* DAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAViewController.m; sourceTree = "<group>"; };
+		032F47AD1DF8479A00FF5D41 /* UIClosedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIClosedViewController.h; sourceTree = "<group>"; };
+		032F47AE1DF8479A00FF5D41 /* UIDynamicDimensionsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDynamicDimensionsItem.h; sourceTree = "<group>"; };
+		032F47AF1DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBarAppearance.h"; sourceTree = "<group>"; };
+		032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBarAppearance.m"; sourceTree = "<group>"; };
+		032F47E41DF84ECF00FF5D41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		032F47F71DF8561F00FF5D41 /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = "../../../../_derived/loveplanet-eyobutmwbavchfgswhgdieyxpsli/Build/Products/Debug-iphoneos/DAKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032F47781DF846F000FF5D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032F47F81DF8561F00FF5D41 /* DAKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032F47721DF846F000FF5D41 = {
+			isa = PBXGroup;
+			children = (
+				032F477E1DF846F000FF5D41 /* DAUI */,
+				032F477D1DF846F000FF5D41 /* Products */,
+				032F47F61DF8561F00FF5D41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		032F477D1DF846F000FF5D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032F477C1DF846F000FF5D41 /* DAUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032F477E1DF846F000FF5D41 /* DAUI */ = {
+			isa = PBXGroup;
+			children = (
+				032F477F1DF846F000FF5D41 /* DAUI.h */,
+				032F47E41DF84ECF00FF5D41 /* PrefixHeader.pch */,
+				032F47801DF846F000FF5D41 /* DAUIInfo.plist */,
+				032F47AC1DF8479A00FF5D41 /* UI */,
+				032F478E1DF8479A00FF5D41 /* DAView */,
+				032F47871DF8479A00FF5D41 /* DARefreshView */,
+				032F479D1DF8479A00FF5D41 /* DAViewController */,
+			);
+			path = DAUI;
+			sourceTree = "<group>";
+		};
+		032F47871DF8479A00FF5D41 /* DARefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				032F478A1DF8479A00FF5D41 /* DARefreshItem.h */,
+				032F478B1DF8479A00FF5D41 /* DARefreshItem.m */,
+				032F47881DF8479A00FF5D41 /* DARefreshController.h */,
+				032F47891DF8479A00FF5D41 /* DARefreshController.m */,
+				032F478C1DF8479A00FF5D41 /* DARefreshView.h */,
+				032F478D1DF8479A00FF5D41 /* DARefreshView.m */,
+			);
+			path = DARefreshView;
+			sourceTree = "<group>";
+		};
+		032F478E1DF8479A00FF5D41 /* DAView */ = {
+			isa = PBXGroup;
+			children = (
+				032F478F1DF8479A00FF5D41 /* DABadgeView.h */,
+				032F47901DF8479A00FF5D41 /* DABadgeView.m */,
+				032F47911DF8479A00FF5D41 /* DAButton.h */,
+				032F47921DF8479A00FF5D41 /* DAButton.m */,
+				032F47931DF8479A00FF5D41 /* DAComplexView.h */,
+				032F47941DF8479A00FF5D41 /* DAComplexView.m */,
+				032F47951DF8479A00FF5D41 /* DAPageControl.h */,
+				032F47961DF8479A00FF5D41 /* DAPageControl.m */,
+				032F47971DF8479A00FF5D41 /* DASegmentsControl.h */,
+				032F47981DF8479A00FF5D41 /* DASegmentsControl.m */,
+				032F47991DF8479A00FF5D41 /* DASlidesView.h */,
+				032F479A1DF8479A00FF5D41 /* DASlidesView.m */,
+				032F479B1DF8479A00FF5D41 /* DATextView.h */,
+				032F479C1DF8479A00FF5D41 /* DATextView.m */,
+			);
+			path = DAView;
+			sourceTree = "<group>";
+		};
+		032F479D1DF8479A00FF5D41 /* DAViewController */ = {
+			isa = PBXGroup;
+			children = (
+				032F47AA1DF8479A00FF5D41 /* DAViewController.h */,
+				032F47AB1DF8479A00FF5D41 /* DAViewController.m */,
+				032F47A81DF8479A00FF5D41 /* DAViewController+Helpers.h */,
+				032F47A91DF8479A00FF5D41 /* DAViewController+Helpers.m */,
+				032F479E1DF8479A00FF5D41 /* DACollectionViewController.h */,
+				032F479F1DF8479A00FF5D41 /* DACollectionViewController.m */,
+				032F47A01DF8479A00FF5D41 /* DANavigationController.h */,
+				032F47A11DF8479A00FF5D41 /* DANavigationController.m */,
+				032F47A21DF8479A00FF5D41 /* DAScrollViewController.h */,
+				032F47A31DF8479A00FF5D41 /* DAScrollViewController.m */,
+				032F47A41DF8479A00FF5D41 /* DASlidesViewController.h */,
+				032F47A51DF8479A00FF5D41 /* DASlidesViewController.m */,
+				032F47A61DF8479A00FF5D41 /* DATableViewController.h */,
+				032F47A71DF8479A00FF5D41 /* DATableViewController.m */,
+			);
+			path = DAViewController;
+			sourceTree = "<group>";
+		};
+		032F47AC1DF8479A00FF5D41 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				032F47AD1DF8479A00FF5D41 /* UIClosedViewController.h */,
+				032F47AE1DF8479A00FF5D41 /* UIDynamicDimensionsItem.h */,
+				032F47AF1DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h */,
+				032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		032F47F61DF8561F00FF5D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032F47F71DF8561F00FF5D41 /* DAKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032F47791DF846F000FF5D41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032F47BD1DF8479A00FF5D41 /* DAPageControl.h in Headers */,
+				032F47BB1DF8479A00FF5D41 /* DAComplexView.h in Headers */,
+				032F47F51DF8560100FF5D41 /* DAUI.h in Headers */,
+				032F47CF1DF8479A00FF5D41 /* DAViewController+Helpers.h in Headers */,
+				032F47B51DF8479A00FF5D41 /* DARefreshView.h in Headers */,
+				032F47CB1DF8479A00FF5D41 /* DASlidesViewController.h in Headers */,
+				032F47BF1DF8479A00FF5D41 /* DASegmentsControl.h in Headers */,
+				032F47D11DF8479A00FF5D41 /* DAViewController.h in Headers */,
+				032F47C31DF8479A00FF5D41 /* DATextView.h in Headers */,
+				032F47C11DF8479A00FF5D41 /* DASlidesView.h in Headers */,
+				032F47D41DF8479A00FF5D41 /* UIDynamicDimensionsItem.h in Headers */,
+				032F47D31DF8479A00FF5D41 /* UIClosedViewController.h in Headers */,
+				032F47B11DF8479A00FF5D41 /* DARefreshController.h in Headers */,
+				032F47CD1DF8479A00FF5D41 /* DATableViewController.h in Headers */,
+				032F47C71DF8479A00FF5D41 /* DANavigationController.h in Headers */,
+				032F47B91DF8479A00FF5D41 /* DAButton.h in Headers */,
+				032F47D51DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h in Headers */,
+				032F47B31DF8479A00FF5D41 /* DARefreshItem.h in Headers */,
+				032F47C51DF8479A00FF5D41 /* DACollectionViewController.h in Headers */,
+				032F47B71DF8479A00FF5D41 /* DABadgeView.h in Headers */,
+				032F47C91DF8479A00FF5D41 /* DAScrollViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		032F477B1DF846F000FF5D41 /* DAUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032F47841DF846F000FF5D41 /* Build configuration list for PBXNativeTarget "DAUI" */;
+			buildPhases = (
+				032F47771DF846F000FF5D41 /* Sources */,
+				032F47781DF846F000FF5D41 /* Frameworks */,
+				032F47791DF846F000FF5D41 /* Headers */,
+				032F477A1DF846F000FF5D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAUI;
+			productName = DAUI;
+			productReference = 032F477C1DF846F000FF5D41 /* DAUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032F47731DF846F000FF5D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aseev Danil";
+				TargetAttributes = {
+					032F477B1DF846F000FF5D41 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 032F47761DF846F000FF5D41 /* Build configuration list for PBXProject "DAUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 032F47721DF846F000FF5D41;
+			productRefGroup = 032F477D1DF846F000FF5D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032F477B1DF846F000FF5D41 /* DAUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032F477A1DF846F000FF5D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032F47771DF846F000FF5D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032F47B21DF8479A00FF5D41 /* DARefreshController.m in Sources */,
+				032F47B41DF8479A00FF5D41 /* DARefreshItem.m in Sources */,
+				032F47D61DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m in Sources */,
+				032F47C01DF8479A00FF5D41 /* DASegmentsControl.m in Sources */,
+				032F47CE1DF8479A00FF5D41 /* DATableViewController.m in Sources */,
+				032F47C21DF8479A00FF5D41 /* DASlidesView.m in Sources */,
+				032F47C81DF8479A00FF5D41 /* DANavigationController.m in Sources */,
+				032F47CC1DF8479A00FF5D41 /* DASlidesViewController.m in Sources */,
+				032F47D01DF8479A00FF5D41 /* DAViewController+Helpers.m in Sources */,
+				032F47B61DF8479A00FF5D41 /* DARefreshView.m in Sources */,
+				032F47BA1DF8479A00FF5D41 /* DAButton.m in Sources */,
+				032F47CA1DF8479A00FF5D41 /* DAScrollViewController.m in Sources */,
+				032F47BC1DF8479A00FF5D41 /* DAComplexView.m in Sources */,
+				032F47C61DF8479A00FF5D41 /* DACollectionViewController.m in Sources */,
+				032F47BE1DF8479A00FF5D41 /* DAPageControl.m in Sources */,
+				032F47C41DF8479A00FF5D41 /* DATextView.m in Sources */,
+				032F47B81DF8479A00FF5D41 /* DABadgeView.m in Sources */,
+				032F47D21DF8479A00FF5D41 /* DAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		032F47821DF846F000FF5D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		032F47831DF846F000FF5D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		032F47851DF846F000FF5D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREFIX_HEADER = DAUI/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = ../DAKit;
+				INFOPLIST_FILE = DAUI/DAUIInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aseevdanil.daui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		032F47861DF846F000FF5D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREFIX_HEADER = DAUI/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = ../DAKit;
+				INFOPLIST_FILE = DAUI/DAUIInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aseevdanil.daui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032F47761DF846F000FF5D41 /* Build configuration list for PBXProject "DAUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032F47821DF846F000FF5D41 /* Debug */,
+				032F47831DF846F000FF5D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032F47841DF846F000FF5D41 /* Build configuration list for PBXNativeTarget "DAUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032F47851DF846F000FF5D41 /* Debug */,
+				032F47861DF846F000FF5D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032F47731DF846F000FF5D41 /* Project object */;
+}
