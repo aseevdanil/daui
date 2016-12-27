@@ -321,7 +321,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/myfile",
+				"$(SRCROOT)/Carthage/Build/iOS/DAKit.framework",
 			);
 			outputPaths = (
 			);
