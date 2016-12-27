@@ -74,7 +74,10 @@ typedef NS_ENUM(NSUInteger, DAViewControllerHeaderFooterBarAlignment)
 @property (nonatomic, strong, readonly) UIView *contentView;
 - (void)contentViewDidLayoutSubviews;
 
-@property (nonatomic, retain) UIView *backgroundView;
+// BackgroundView exists only when view is loaded
+@property (nonatomic, strong) UIView *backgroundView;	// use setter only in loadBackgroundView
+- (void)reloadBackgroundView;
+- (void)loadBackgroundView;								// Overload
 
 @property (nonatomic, strong) UIView *headerBar;
 @property (nonatomic, strong) UIView *footerBar;

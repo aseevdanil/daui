@@ -408,6 +408,8 @@
 {
 	[super viewDidLoad];
 	
+	[self loadBackgroundView];
+	
 	_anchorView = [[DAViewController_AnchorView alloc] initWithFrame:self.view.bounds];
 	_anchorView.layoutSubviewsDelegate = self;
 	_anchorView.layoutSubviewsSelector = @selector(handleAnchorViewLayoutSubviews);
@@ -421,8 +423,6 @@
 	_contentView.backgroundColor = [UIColor clearColor];
 	[self.view addSubview:_contentView];
 	
-	if (_backgroundView)
-		[self.view insertSubview:_backgroundView atIndex:0];
 	if (_headerBar)
 	{
 		_headerBar.alpha = _daViewControllerFlags.barsHidden || _daViewControllerFlags.headerBarHidden ? 0. : 1.;
@@ -445,8 +445,6 @@
 	_anchorView.layoutSubviewsSelector = NULL;
 	_contentView.layoutSubviewsDelegate = nil;
 	_contentView.layoutSubviewsSelector = NULL;
-	if (_backgroundView)
-		[_backgroundView removeFromSuperview];
 	if (_headerBar)
 		[_headerBar removeFromSuperview];
 	if (_footerBar)
@@ -459,6 +457,7 @@
 	[super viewDidClear];
 	_contentView = nil;
 	_anchorView = nil;
+	_backgroundView = nil;
 }
 
 
@@ -652,19 +651,33 @@
 
 - (void)setBackgroundView:(UIView *)backgroundView
 {
-	if (backgroundView == _backgroundView)
-		return;
-	if (_backgroundView)
-		[_backgroundView removeFromSuperview];
+	DASSERT(self.isViewLoaded);
+	DASSERT(!_backgroundView);
 	_backgroundView = backgroundView;
 	if (_backgroundView)
 	{
-		if ([self isViewLoaded])
-		{
-			_backgroundView.frame = self.view.bounds;
-			[self.view insertSubview:_backgroundView atIndex:0];
-		}
+		_backgroundView.frame = self.view.bounds;
+		[self.view insertSubview:_backgroundView atIndex:0];
 	}
+}
+
+
+- (void)reloadBackgroundView
+{
+	if (self.isViewLoaded)
+	{
+		if (_backgroundView)
+		{
+			[_backgroundView removeFromSuperview];
+			_backgroundView = nil;
+		}
+		[self loadBackgroundView];
+	}
+}
+
+
+- (void)loadBackgroundView
+{
 }
 
 
