@@ -261,6 +261,7 @@
 				032F47781DF846F000FF5D41 /* Frameworks */,
 				032F47791DF846F000FF5D41 /* Headers */,
 				032F477A1DF846F000FF5D41 /* Resources */,
+				038A47A81E12B3B3009E7FFA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -312,6 +313,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038A47A81E12B3B3009E7FFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/myfile",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		032F47771DF846F000FF5D41 /* Sources */ = {
