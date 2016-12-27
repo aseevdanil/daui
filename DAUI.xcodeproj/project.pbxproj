@@ -45,8 +45,8 @@
 		032F47D41DF8479A00FF5D41 /* UIDynamicDimensionsItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AE1DF8479A00FF5D41 /* UIDynamicDimensionsItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		032F47D51DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AF1DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		032F47D61DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */; };
-		032F47F51DF8560100FF5D41 /* DAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F477F1DF846F000FF5D41 /* DAUI.h */; };
-		032F47F81DF8561F00FF5D41 /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032F47F71DF8561F00FF5D41 /* DAKit.framework */; };
+		032F47F51DF8560100FF5D41 /* DAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F477F1DF846F000FF5D41 /* DAUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038A47961E12863E009E7FFA /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A47951E12863E009E7FFA /* DAKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,7 +92,7 @@
 		032F47AF1DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBarAppearance.h"; sourceTree = "<group>"; };
 		032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBarAppearance.m"; sourceTree = "<group>"; };
 		032F47E41DF84ECF00FF5D41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		032F47F71DF8561F00FF5D41 /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = "../../../../_derived/loveplanet-eyobutmwbavchfgswhgdieyxpsli/Build/Products/Debug-iphoneos/DAKit.framework"; sourceTree = "<group>"; };
+		038A47951E12863E009E7FFA /* DAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DAKit.framework; path = Carthage/Build/iOS/DAKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032F47F81DF8561F00FF5D41 /* DAKit.framework in Frameworks */,
+				038A47961E12863E009E7FFA /* DAKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +207,7 @@
 		032F47F61DF8561F00FF5D41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				032F47F71DF8561F00FF5D41 /* DAKit.framework */,
+				038A47951E12863E009E7FFA /* DAKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032F47F51DF8560100FF5D41 /* DAUI.h in Headers */,
 				032F47BD1DF8479A00FF5D41 /* DAPageControl.h in Headers */,
 				032F47BB1DF8479A00FF5D41 /* DAComplexView.h in Headers */,
-				032F47F51DF8560100FF5D41 /* DAUI.h in Headers */,
 				032F47CF1DF8479A00FF5D41 /* DAViewController+Helpers.h in Headers */,
 				032F47B51DF8479A00FF5D41 /* DARefreshView.h in Headers */,
 				032F47CB1DF8479A00FF5D41 /* DASlidesViewController.h in Headers */,
@@ -254,6 +254,7 @@
 				032F47781DF846F000FF5D41 /* Frameworks */,
 				032F47791DF846F000FF5D41 /* Headers */,
 				032F477A1DF846F000FF5D41 /* Resources */,
+				038A47931E127F57009E7FFA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -305,6 +306,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038A47931E127F57009E7FFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DAKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		032F47771DF846F000FF5D41 /* Sources */ = {
@@ -423,6 +441,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -434,15 +453,17 @@
 		032F47851DF846F000FF5D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				GCC_PREFIX_HEADER = DAUI/PrefixHeader.pch;
-				HEADER_SEARCH_PATHS = ../DAKit;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DAUI/DAUIInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -451,21 +472,25 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		032F47861DF846F000FF5D41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				GCC_PREFIX_HEADER = DAUI/PrefixHeader.pch;
-				HEADER_SEARCH_PATHS = ../DAKit;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DAUI/DAUIInfo.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -474,6 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
