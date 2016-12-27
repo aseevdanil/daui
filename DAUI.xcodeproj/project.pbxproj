@@ -46,7 +46,7 @@
 		032F47D51DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F47AF1DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		032F47D61DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 032F47B01DF8479A00FF5D41 /* UIViewController+NavigationBarAppearance.m */; };
 		032F47F51DF8560100FF5D41 /* DAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F477F1DF846F000FF5D41 /* DAUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		038A47A51E12A04E009E7FFA /* DAMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 038A47A31E12A04E009E7FFA /* DAMapViewController.h */; };
+		038A47A51E12A04E009E7FFA /* DAMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 038A47A31E12A04E009E7FFA /* DAMapViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		038A47A61E12A04E009E7FFA /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A47A41E12A04E009E7FFA /* DAMapViewController.m */; };
 		038A47A71E12ADD0009E7FFA /* DAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A47951E12863E009E7FFA /* DAKit.framework */; };
 /* End PBXBuildFile section */
@@ -225,6 +225,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038A47A51E12A04E009E7FFA /* DAMapViewController.h in Headers */,
 				032F47F51DF8560100FF5D41 /* DAUI.h in Headers */,
 				032F47BD1DF8479A00FF5D41 /* DAPageControl.h in Headers */,
 				032F47BB1DF8479A00FF5D41 /* DAComplexView.h in Headers */,
@@ -236,7 +237,6 @@
 				032F47C31DF8479A00FF5D41 /* DATextView.h in Headers */,
 				032F47C11DF8479A00FF5D41 /* DASlidesView.h in Headers */,
 				032F47D41DF8479A00FF5D41 /* UIDynamicDimensionsItem.h in Headers */,
-				038A47A51E12A04E009E7FFA /* DAMapViewController.h in Headers */,
 				032F47D31DF8479A00FF5D41 /* UIClosedViewController.h in Headers */,
 				032F47B11DF8479A00FF5D41 /* DARefreshController.h in Headers */,
 				032F47CD1DF8479A00FF5D41 /* DATableViewController.h in Headers */,
