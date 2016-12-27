@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 Aseev Danil. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 
 
 @protocol UIClosedViewController

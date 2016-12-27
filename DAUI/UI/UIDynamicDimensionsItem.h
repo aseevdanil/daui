@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Aseev Danil. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 
 
 @protocol UIDynamicDimensionsItem

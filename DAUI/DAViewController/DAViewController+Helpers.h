@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Aseev Danil. All rights reserved.
 //
 
+#import <DAKit/DAKit.h>
+
 #import "DAViewController.h"
 
 
